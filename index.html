@@ -1,1 +1,52 @@
-Hello
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+        body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			margin: 0;
+            background-color: black;
+		}
+
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 20%;
+		}
+
+		.container img {
+			max-width: 50%;
+			height: auto;
+			margin: 0 10px;
+		}
+
+		.top-left {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 80px;
+			padding: 10px;
+		}
+
+		.top-left img {
+			max-height: 100%;
+			max-width: 100%;
+		}
+	</style>
+</head>
+<body>
+    <div class="top-left">
+        <img src="img/vomitousmixture-logo.gif" height="80" />
+	</div>
+
+	<div class="container">
+		<img class="pony" src="img/pony.png" alt="The mixeure w/out a main page">
+		<img class="pony" src="img/pony-lensflares.gif" alt="The mixture w/ a main page">
+	</div>
+</body>
+</html>
